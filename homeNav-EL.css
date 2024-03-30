@@ -5,7 +5,7 @@ p, body {
 }
 
 header {
-    background-color: #b06873;
+    background-color: #333;
     color: white;
     padding: 10px;
     display: flex;
@@ -146,6 +146,20 @@ nav a {
 }
 nav a:hover {
     background-color: #555;
+}
+.image-container {
+    position: relative;
+    display: inline-block; 
+}
+
+.image-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 10px;
+    font-family: Arial, sans-serif; 
 }
 
 #subscribe-form {
